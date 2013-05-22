@@ -310,12 +310,8 @@
             window.ondevicelight = function (event) {
                 // Read out the lux value
                 var lux = "<strong>Ambient light: </strong>" + event.value + " lux";
-                //ambientLightDisplay.innerHTML = lux;
+                ambientLightDisplay.innerHTML = lux;
             };
-            window.onlightlevel = function (event) {
-                var lightLevel = "<strong>Light Level: </strong>" + event.value;
-                ambientLightDisplay.innerHTML = lightLevel;
-            }
         };
     }
 
