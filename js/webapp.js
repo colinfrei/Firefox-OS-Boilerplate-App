@@ -237,7 +237,7 @@
     var vibrate = document.querySelector("#vibrate");
     if (vibrate) {
         vibrate.onclick = function () {
-            var vibrating =  navigator.vibrate(10000);
+            var vibrating =  navigator.vibrate(2000);
             /*
                 Possible values:
                     On/off pattern:
